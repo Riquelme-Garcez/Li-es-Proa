@@ -1,0 +1,20 @@
+programa
+{
+inteiro numero,resultado,contador
+
+	
+	funcao inicio()
+	{
+		escreva("Escrava o numero da tabuada desejada: ")
+		leia(numero)
+
+		limpa()
+
+		para(contador = 1; contador <= 10; contador ++)
+		{
+			resultado = numero * contador
+			escreva(numero, "X", contador, "=", resultado, "\n")
+		}
+		
+	}
+}
