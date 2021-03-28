@@ -18,3 +18,25 @@ inteiro numero,resultado,contador
 		
 	}
 }
+
+programa
+{
+	real numero
+	
+	funcao inicio()
+	{
+		escreva("O valor desejado: ")
+		leia(numero)
+
+		limpa()
+
+		se(numero >0)
+		escreva("positivo")
+		senao
+		escreva("negativo")
+
+
+
+		
+	}
+}
