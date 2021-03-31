@@ -1,0 +1,21 @@
+programa
+{
+	real numero
+	
+	funcao inicio()
+	{
+		escreva("O valor desejado: ")
+		leia(numero)
+
+		limpa()
+
+		se(numero >0)
+		escreva("O numero é positivo: ")
+		senao
+		escreva("O numero é positivo negativo ")
+
+
+
+		
+	}
+}
