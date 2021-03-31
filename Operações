@@ -1,0 +1,56 @@
+programa
+{
+real n1, n2
+cadeia opera
+real Multi, Divi, Soma, Sub
+	
+	funcao inicio()
+	{
+		escreva("Bem vindo a calculadora.\n")
+		escreva("Multi,Divi,Soma,Sub.\n")
+		leia(opera)
+
+		se(opera == "Multi"){
+			limpa()
+			escreva("Digite o primeiro numero: ")
+			leia(n1)
+			escreva("Didite o segundo numero: ")
+			leia(n2)
+			Multi = n1*n2
+			escreva("A multiplicação é igual a: ", Multi)
+		}
+		se(opera == "Divi"){
+			limpa()
+			escreva("Digite o primeiro numero: ")
+			leia(n1)
+			escreva("Digite o segundo numero: ")
+			leia(n2)
+			Divi = n1/n2
+			escreva("A divisão é igual a: ", Divi)
+		}
+		se(opera == "Soma"){
+			limpa()
+			escreva("Digite o primeiro numero: ")
+			leia(n1)
+			escreva("Digite o segundo numero: ")
+			leia(n2)
+			Soma = n1+n2
+			escreva("A soma é igual a: ", Soma)
+		}
+		se(opera == "Sub"){
+			limpa()
+			escreva("Digite o primeiro numero: ")
+			leia(n1)
+			escreva("Digite o segundo numero: ")
+			leia(n2)
+			Sub = n1-n2
+			escreva("A subtração é igual a: ", Sub)
+			
+		}
+		
+
+		
+			
+		
+		}
+}
