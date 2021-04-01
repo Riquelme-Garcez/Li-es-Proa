@@ -1,0 +1,26 @@
+programa
+{
+ 
+inteiro n1,n2
+	
+	funcao inicio()
+	{
+		escreva("Digite o primeiro numero: ")
+		leia(n1)
+		escreva("Digite o segundo numero: ")
+		leia(n2)
+
+		limpa()
+
+		se(n1>n2){
+			escreva("O primeiro numero é maior: ", n1)
+		}se(n2>n1){
+			escreva("O segundo numero é maior: ", n2)
+		} senao{
+			 escreva("Os numeros são iguais: ")
+			 }
+		
+	
+	       }
+	
+}
