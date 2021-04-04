@@ -1,0 +1,20 @@
+programa
+{
+	
+	inteiro nx
+	inteiro ny = 1
+	
+	funcao inicio()
+	{
+		escreva("Digite um número: ")
+		leia(nx)
+
+		enquanto(ny<=nx){
+			escreva(ny, " ")
+			
+			ny++
+
+			
+		}
+	}
+}
