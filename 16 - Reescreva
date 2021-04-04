@@ -1,0 +1,19 @@
+programa
+{
+real nota1, nota2, media
+	
+	funcao inicio()
+	{
+		escreva("Olá escreva as notas do seu desempenho em avaliação: ")
+		leia(nota1, nota2)
+		limpa()
+		 media = nota1 + nota2 / 2
+
+		 se(media>=7){
+		 	escreva("Graças ao seus esforços você passou com a média de: ", media)
+		 }se(media<7){
+		 	escreva("Infelizmente você reprovou.")
+		 }
+		 
+	}
+}
