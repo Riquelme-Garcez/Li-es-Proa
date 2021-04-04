@@ -1,0 +1,16 @@
+programa
+{
+inteiro n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, media
+	
+	funcao inicio()
+	{
+		escreva("Digite os dez valores: ")
+		leia(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10)
+
+		media = (n1+n2+n3+n4+n5+n6+n7+n8+n9+n10)/10
+
+		escreva("Sua média foi de exatamente: " , media)
+
+		
+	}
+}
