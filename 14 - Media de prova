@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real prova1, prova2, prova3, prova4, media
+
+		escreva("Digite as notas obtidas: ")
+		leia(prova1, prova2, prova3, prova4)
+		limpa()
+
+		media = (prova1+prova2+prova3+prova4)/4
+
+		escreva("A sua média foi de: ", media)
+		
+	}
+}
