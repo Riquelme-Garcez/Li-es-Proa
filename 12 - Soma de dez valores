@@ -1,0 +1,14 @@
+programa
+{
+inteiro n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, soma
+	
+	funcao inicio()
+	{
+		escreva("Digite os dez valores: ")
+		leia(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10)
+
+		soma=(n1+n2+n3+n4+n5+n6+n7+n8+n9+n10)
+
+	escreva("O resultado da soma de todos os numeros é de: ", soma)
+	}
+}
