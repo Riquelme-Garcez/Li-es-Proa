@@ -1,0 +1,19 @@
+programa
+{
+inteiro numero, menorq
+inteiro soma = 0
+	
+	funcao inicio()
+	{
+		para(menorq = 0; menorq <10; menorq++){
+			escreva("\nInfome os números: ")
+			leia(numero)
+			se(numero<40){
+				soma = numero + soma }
+				limpa()
+				escreva("o valor total da soma com numeros menores que 40 são: ", soma)
+			}
+			
+		}
+	
+}
