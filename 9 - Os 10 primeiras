@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		inteiro x = 101
+		inteiro y = 0
+	
+		enquanto (y < 10){
+			se ( x > 100) {
+				y += 1
+				escreva(x , " , ")
+				x += 1
+			}
+		}
+	
+		}
+	}
