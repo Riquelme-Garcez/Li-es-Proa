@@ -1,0 +1,24 @@
+programa
+{
+	inclua biblioteca Util
+	-->u
+	real resultado, parcelas
+	
+	funcao inicio()
+	{
+		escreva("Olá bem-vindo a Drones S/A")
+		u.aguarde(2000)
+		limpa()
+		escreva("Informe o numero de parcelas por favor: ")
+		leia(parcelas)
+
+		se(parcelas <=15){
+			resultado = 8190 / parcelas
+			escreva("O valor parcelado fica em : ", resultado)
+		}senao
+		escreva("Infelizmente o numero de parcelas é muito alto")
+		}
+		
+		
+	
+}
