@@ -1,0 +1,19 @@
+programa
+{
+real altura, peso, Imc
+	
+	funcao inicio()
+	{
+		escreva("Olá Bemvindo ao Calculo de Imc.")
+		limpa()
+		escreva("Digite sua altura: ")
+		leia(altura)
+		escreva("Digite seu peso: ")
+		leia(peso)
+		limpa()
+
+		Imc = (peso) / (altura * altura)
+
+		escreva("Seu indice de massa corporal é de: ", Imc)
+	}
+}
