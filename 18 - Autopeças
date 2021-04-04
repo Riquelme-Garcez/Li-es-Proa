@@ -1,0 +1,26 @@
+programa
+{
+real custo_peca, aumento, porcento, lucro, val
+inteiro peca
+	
+	funcao inicio()
+	{
+		escreva("Olá Bem-Vindo(a) a Wesley Motor's.")
+		limpa()
+		escreva("Quanto custa a peça comprada?: ")
+		leia(custo_peca)
+		escreva("Qual a média de aumento em porcetagem? ")
+		leia(aumento)
+		
+		limpa()
+
+		porcento=(custo_peca/100)*aumento
+		val=porcento+custo_peca
+		lucro=val-custo_peca
+
+		escreva("O valor da venda é de: ", val)
+		escreva("O lucro pela venda é de: ", lucro)
+
+		
+	}
+}
